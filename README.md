@@ -12,13 +12,13 @@
 `EVM账户绑定` `开发工具` `项目部署` `验证合约` ...
 
 
-### 参与贡献
+## 参与贡献
 
 1. 如果您对本项目有任何建议或发现文中内容有误的，欢迎提交 issues 进行指正。
 2. 对于文中我没有涉及到知识点，欢迎提交PR。
 
 
-### Acala官方网址
+## Acala官方网址
 
 官网: [https://acala.network/](https://acala.network/)
 
@@ -28,7 +28,7 @@ Evm+ 浏览器: [https://blockscout.acala.network/](https://blockscout.acala.net
 
 Euphrates: [https://farm.acala.network/](https://farm.acala.network/)
 
-### 支持我
+## 支持我
 - 关注推特 👉 [**白垩纪小虾米**](https://twitter.com/0xLionCao)
 - 分享给您身边更多的小伙伴
 - 欢迎打赏 
