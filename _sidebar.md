@@ -16,4 +16,4 @@
     - [预制合约](/contract/predeploy-contracts.md)
    
 - 常见问题
-    - [转账失败](/issue/transfer-error.md)
+    - [问题](/issue/error.md)
