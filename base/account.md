@@ -1,38 +1,38 @@
-# 账户绑定
+# Account binding
 
-请注意，绑定功能在设计上有一些限制：
+Note that the binding functionality has some limitations by design:
 
-只能在一个 Substrate 和一个 MetaMask 帐户之间进行绑定
+Binding can only be done between a Substrate and a MetaMask account
 
-两个帐户都不能预先绑定到另一个帐户。此外，绑定后没有取消绑定功能。
+Neither account can be pre-bound to the other. In addition, there is no unbinding function after binding.
 
-## 准备Substrate账户
+## Prepare Substrate account
 
-使用 [Polkadot.js](https://polkadot.js.org/extension/) 可以创建 substarte 账户
+use [Polkadot.js](https://polkadot.js.org/extension/) to create an substrate account
 
-## 准备Evm账户
+## Prepare Evm account
 
-使用 [Metamask](https://metamask.io/download/) 可以创建 evm 账户
+use [Metamask](https://metamask.io/download/) to create an evm account
 
-## 切换到 AcalaEVM + 网络
+## Switch to AcalaEVM + Network
 
-账户绑定前，请先添加该[网络](/base/network.md),并切换到该网络，
+Before binding the account, please add the [network](/base/network.md) and switch to the network.
 
-## 绑定 EVM+ 账户
+## Bind EVM+ account
 
-转到Acala 应用程序中的“绑定 MetaMask”。单击Connect to MetaMask并选择您要连接的帐户。对您的 Substrate 帐户执行相同的操作。
+Go to "Bind MetaMask" in your Acala application. Click Connect to MetaMask and select the account you want to connect to. Do the same for your Substrate account.
 
 ![](img/account-1.png)
 
-请仔细检查您是否绑定了正确的帐户，因为此操作无法撤消。点击Sign。
+Please double-check that you have linked the correct account as this action cannot be undone. Click Sign.
 
 ![](img/account-2.png)
 
-单击Bind。为了绑定，您必须拥有 Substrate 帐户。并且有一定量的ACA作为Gas。
+Click Bind. In order to bind, you must have a Substrate account. And there is a certain amount of ACA as Gas.
 
 ![](img/account-3.png)
 
-现在您应该看到您的帐户已成功绑定！
+You should now see that your account has been successfully linked!
 
 ![](img/account-4.png)
 

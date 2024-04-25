@@ -1,16 +1,16 @@
-# 注册开发者
+# Register developer
 
-如果需要在 Acala Evm+ 网络开发合约，必须先注册开发者，才会被许可发布合约。
+If you need to develop a contract on the Acala Evm+ network, you must first register as a developer before you will be allowed to publish the contract.
 
-- 打开 [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc9-rpc.aca-staging.network%2Fws#/extrinsics) 的 **Developer** ，然后选择 **Extrinsics**。
+- open [Polkadot.js](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fmandala-tc9-rpc.aca-staging.network%2Fws#/extrinsics)  **Developer** ，choose **Extrinsics**。
 
-- 从顶部下拉列表中选择目标帐户
+- Select the target account from the top drop-down list
 
-- 从外部下拉菜单中选择 **evm**
+- Select from external drop-down menu **evm**
 
-- 下拉列表中选择 **enableContractDevelopment()**
+- Select from the drop-down list **enableContractDevelopment()**
 
-- 单击提交交易并签名并提交
+- Click Submit Transaction and sign and submit
 
 ![](img/development.png)
 

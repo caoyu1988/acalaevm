@@ -1,9 +1,9 @@
 <img width="100px" style="border-radius: 50%" bor src="https://farm.acala.network/assets/tokens/aca.png">
 
-# Acala EVM+ 极简入门
+# Acala EVM+ simple tutorial
 
-- “Acala EVM+ 极简入门”，尽量用最简单的方式帮助小白开发者了解和使用Acala EVM+ 网络，也希望能聚集Acala爱好者，一起共建 Acala 开发者社区。
+- “Acala EVM+ simple tutorial”，Try to use the simplest way to help  developers understand and use the Acala EVM+ network, and also hope to gather Acala enthusiasts to build an Acala developer community.
 
 
 [GitHub](<https://github.com/caoyu1988/acalaevm.git>)
-[开始阅读](README.md)
+[Read](README.md)

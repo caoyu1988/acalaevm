@@ -1,13 +1,12 @@
-# 删除合约
+# Delete contract
 
-智能合约的拥有者才有权利可以删除合约，删除合约后，智能合约的支付租金将返还到删除合约的地址上。
+Only the owner of the smart contract has the right to delete the contract. After the contract is deleted, the rent paid by the smart contract will be returned to the address where the contract was deleted.
 
+- Open the **Polkadot.js** chain explorer and open the **Extrinsics** section.
 
-- 打开 **Polkadot.js** 链浏览器并打开**Extrinsics**部分。
+- In **submit the following extrinsic**, select the **evm** option. Select **selfdestruct** and paste the address of the smart contract you want to delete into the input field below it.
 
-- 在 **submit the following extrinsic**中，选择该**evm**选项。选择**selfdestruct**，并将要删除的智能合约的地址粘贴到其下方的输入字段中。
-
-- 剩下要做的就是按下按钮**Submit transaction**，这将打开您的 Polkdadot.js 钱包并提示您签署交易。一旦您签署并提交，您的智能合约将被删除，存储租金将被退还。
+- All that’s left to do is press the button **Submit transaction**, which will open your Polkdadot.js wallet and prompt you to sign the transaction. Once you sign and submit, your smart contract will be deleted and the storage rent will be refunded.
 
 
 ![](img/remove.png)

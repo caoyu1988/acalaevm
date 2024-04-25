@@ -1,19 +1,19 @@
-- 简介
-    - [加入我们](README.md)
+- Introduction
+    - [Join Us](README.md)
 
-- 环境准备
-    - [账户绑定](/base/account.md)
-    - [注册开发者](/base/development.md)
-    - [网络设置](/base/network.md)
+- Build Environment
+    - [Account binding](/base/account.md)
+    - [Register developer](/base/development.md)
+    - [Network settings](/base/network.md)
 
-- 合约部署
-    - [开发合约](/contract/deploy.md)
-    - [发布合约](/contract/publish.md)
-    - [删除合约](/contract/remove.md)
-    - [验证合约](/contract/validate.md)
+- Contract deployment
+    - [development contract](/contract/deploy.md)
+    - [Publish contract](/contract/publish.md)
+    - [Delete contract](/contract/remove.md)
+    - [Verify contract](/contract/validate.md)
 
-- 预制合约
-    - [预制合约](/contract/predeploy-contracts.md)
+- Predeployed contracts
+    - [Predeployed contracts](/contract/predeploy-contracts.md)
    
-- 常见问题
-    - [问题](/issue/error.md)
+- FAQs
+    - [FAQs](/issue/error.md)

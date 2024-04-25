@@ -1,33 +1,33 @@
-# 合约部署
+# Contract deployment
 
-## 使用hardhat部署合约
+## Deploy contracts using hardhat
 
-Hardhat 是一种流行的智能合约开发框架。我们将使用 Hardhat 将简单的 Counter 智能合约部署到 Acala Evm+ 网络。
+Hardhat is a popular smart contract development framework. We will use Hardhat to deploy a simple Counter smart contract to the Acala Evm+ network.
 
-有关如何使用 Hardhat 的完整说明，请参阅 [Hardhat 官方文档](https://hardhat.org/hardhat-runner/docs/getting-started#overview)。
+For complete instructions on how to use Hardhat, see the [Hardhat official documentation](https://hardhat.org/hardhat-runner/docs/getting-started#overview).
 
-## 安装
-Hardhat是通过本地安装在项目中使用的。这样你的环境就可以重现，也可以避免未来的版本冲突。
+## Install
+Hardhat is used in the project via local installation. This way your environment is reproducible and future version conflicts can be avoided.
 
-要安装它，你需要创建一个npm项目，进入一个空文件夹，运行npm init。 并遵循其指示操作。项目初始化之后，运行：
-
+To install it, you need to create an npm project, go into an empty folder, and run npm init. and follow its instructions. After the project is initialized, run:
 ```
 npm install --save-dev hardhat
 ```
 
-## 快速开始
-通过在项目文件夹中运行npx hardhat来创建Hardhat项目:
+## quick start
+Create the Hardhat project by running npx hardhat in the project folder:
 
 ![](img/deploy-1.png)
 
-## 创建部署账号
-在你的项目根目录创建 **.env** 文件，将 **my private key** 替换为你的私钥
+## Create a deployment account
+Create a **.env** file in your project root directory and replace **my private key** with your private key
+
 ```
 ACCOUNT_PRIVATE_KEY='my private key'
 ```
 
-## 配置Hardhat
-打开 **hardhat.config.js** 文件，黏贴下面代码
+## Configure Hardhat
+Open the **hardhat.config.js** file and paste the following code
 ```
     require("dotenv").config();
     require("@nomicfoundation/hardhat-toolbox");
@@ -46,14 +46,14 @@ ACCOUNT_PRIVATE_KEY='my private key'
     };
 ```
 
-## 编译合约
-编译你的合约代码
+## Compile contract
+Compile your contract code
 ```
 npx hardhat compile
 ```
 
-## 部署合约
-执行部署脚本
+## Deploy contract
+Execute deployment script
 ```
 npx hardhat run scripts/deploy.js --network acala
 ```

@@ -1,2 +1,3 @@
-# metamask 钱包中有余额，转账执行失败
-Metamask 显示总余额，其中可能包括不可转让余额。例如，如果您的某些ACA正在质押，它们仍会显示在metamask 中，但无法转移。
+# There is a balance in the metamask wallet, but the transfer execution failed.
+
+Metamask displays the total balance, which may include non-transferable balances. For example, if some of your ACAs are being staked, they will still show up in the metamask but will not be transferable.

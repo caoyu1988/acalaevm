@@ -1,15 +1,15 @@
-# 网络设置
+# Network settings
 
-## 快速添加网络
+## Quickly add a network
 
-您可以通过ChainList 上的 [Acala](https://chainlist.org/chain/787) 点击 Add to Metamask 添加它
+You can add it via [Acala](https://chainlist.org/chain/787) on ChainList by clicking Add to Metamask
 
 ![](img/chainlist.png)
 
 
-## 手动配置网络
+## Manually configure the network
 
-通过打开 MetaMask 钱包并转到“设置”->“网络”->“添加网络”并输入以下信息来手动添加 Acala 网络
+Add the Acala network manually by opening the MetaMask wallet and going to Settings->Network->Add Network and entering the following information
 
 ```
 Network Name: Acala
@@ -24,8 +24,8 @@ Block Explorer URL: https://blockscout.acala.network/
 ```
 
 
-## 访问Euphrates 添加网络
+##  Visit Euphrates Add Network
 
-通过Acala 网络 Eurphrates 网站点击 Please switch to Acala Network 来添加 Acala 网络
+Click Please switch to Acala Network to add Acala Network via the [Eurphrates](https://farm.acala.network/)
 
 ![](img/euphrates.png)
